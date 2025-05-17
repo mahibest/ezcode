@@ -1,0 +1,13 @@
+import streamlit as st
+st.set_page_config("documentation", "📄")
+st.header("documentation")
+st.subheader("show")
+st.write("show is used to display words and . eg;")
+st.code("show hello world")
+st.write("to display the answers syntax is no_line ask is in. eg;")
+st.code("show no_1")
+st.warning("note: 1 cannot display answers, rest all can only display the ones before.")
+st.subheader("ask")
+st.write("ask is used to display questions. eg;")
+st.code("ask what is your name")
+st.warning("note: 1 cannot display answers, rest all can only display the ones before.")
