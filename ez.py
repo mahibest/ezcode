@@ -60,4 +60,3 @@ if "show" in code4:
 if "ask" in code4:
     ask5 = code4.replace("ask", "")
     no_5 = st.text_input(ask5)
-st.write("-----------------------easiest programing language-----------------------")
